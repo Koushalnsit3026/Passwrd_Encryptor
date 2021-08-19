@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/password_generator"
         android:supportsRtl="true"
         android:theme="@style/Theme.Password_Generator">
-        <activity android:name=".AES_"></activity>
+        <activity android:name=".AES_"
+            android:label="Advanced Encryption Standard"
+            ></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
